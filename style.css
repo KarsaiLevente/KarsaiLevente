@@ -8,6 +8,7 @@ header{
 
 body{
     background-image:url("images/p1kep.jpg");
+    background-size: contain;
 }
 
 
