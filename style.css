@@ -7,7 +7,9 @@ header{
 }
 
 body{
-    background-image:url("");
+    background-image:url("images/body.jpg");
+    background-size: cover;
+    width: 100%;
 }
 
 
