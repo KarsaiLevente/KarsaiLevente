@@ -2,7 +2,6 @@ header{
     background-size: contain;
     height: 110px;
     background-image: url("images/header.jpg");
-    width: 100%;
     opacity:0.8;
 }
 
@@ -15,7 +14,7 @@ body{
 
 
 header h1{
-    color: rgb(255, 234, 0);
+    color: rgb(139, 101, 19);
     font-family: 'Times New Roman', Times, serif;
     letter-spacing:7px;
 }
@@ -73,8 +72,10 @@ footer div{
 
 
 .active{
-    font-weight: bold;
+    letter-spacing:1px;
+    font-weight:bold;
     text-decoration-line: underline;
+    color: brown !important;
 }
 
 .fooldal{
