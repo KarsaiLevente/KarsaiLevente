@@ -30,6 +30,10 @@ nav a:hover{
     text-decoration: underline red;
 }
 
+.fooldal:hover{
+    letter-spacing:2px !important;
+    font-size:130% !important;
+}
 
 
 .container{
