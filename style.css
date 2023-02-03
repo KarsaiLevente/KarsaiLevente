@@ -91,3 +91,12 @@ section h2{
     font-size: 140%;
 
 }
+
+nav{
+    height: 60px;
+    margin-bottom:5px;
+}
+
+.sdiv img{
+    width: 100% !important;
+}
