@@ -8,20 +8,19 @@ header{
 body{
     background-image:url("images/body.jpg");
     background-size: cover;
-    width: 100%;
+    height: 100%;
 }
 
 
 
 header h1{
-    color: rgb(139, 101, 19);
+    color:chocolate;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing:7px;
 }
 
 nav a{
-    text-align: center;
-    color:white !important;
+    color:rgb(181, 175, 175) !important;
 }
 nav a:hover{
     letter-spacing: 1px;
@@ -74,12 +73,12 @@ footer div{
 }
 
 
-
 .active{
-    letter-spacing:1px;
+    letter-spacing:1.5px;
     font-weight:bold;
+    font-size: 100%;
     text-decoration-line: underline;
-    color: brown !important;
+    color: rgb(142, 7, 7) !important;
 }
 
 .fooldal{
@@ -93,10 +92,15 @@ section h2{
 }
 
 nav{
-    height: 60px;
     margin-bottom:5px;
 }
 
 .sdiv img{
-    width: 100% !important;
+    text-align: center;
+    width: 95% !important;
+    border-radius:5%
+}
+.sdiv{
+    color:rgb(174, 203, 106);
+    text-align: center;
 }
