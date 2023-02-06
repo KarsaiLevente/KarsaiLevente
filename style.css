@@ -87,6 +87,7 @@ footer div{
 
 
 section h2{
+    padding-left: 5px;
     font-size: 140%;
 
 }
@@ -102,5 +103,11 @@ nav{
 }
 .sdiv{
     color:rgb(255, 255, 255,0.733);
+    text-align: center !important;
+}
+#pozitivkep{
+    width: 60% !important;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
