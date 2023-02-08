@@ -63,7 +63,6 @@ footer div{
 }
 
 
-
 #nevek{
     font-size: 16px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -74,7 +73,6 @@ footer div{
 .active{
     letter-spacing:1.5px;
     font-weight:bold;
-    font-size: 100%;
     text-decoration-line: underline;
     color: rgb(142, 7, 7) !important;
 }
@@ -95,16 +93,23 @@ nav{
 
 .sdiv img{
     text-align: center;
-    width: 95% !important;
+    width: 95%;
     border-radius:5%
 }
+
 .sdiv{
     color:rgb(255, 255, 255,0.733);
     text-align: center !important;
 }
-#pozitivkep{
-    width: 60% !important;
+
+.pozitivkep{
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    width: 70% !important;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
+a img:hover{
+    opacity:0.7;
+}
+
