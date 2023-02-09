@@ -81,12 +81,6 @@ footer div{
     font-weight: bold;
 }
 
-
-section h2{
-    padding-left:5px;
-    font-size: 140%;
-}
-
 nav{
     margin-bottom:5px;
 }
@@ -113,3 +107,7 @@ a img:hover{
     opacity:0.7;
 }
 
+section h2{
+    padding-left:5px;
+    font-size: 140%;
+}
