@@ -23,11 +23,18 @@ nav a{
     color:rgb(181, 175, 175) !important;
 }
 
+
 nav a:hover{
     color: red !important;
     text-decoration: underline 2px red;
     background-color:rgba(80, 78, 78, 0.18);
+    font-size: 130%;
 }
+
+nav div{
+    position: relative;
+}
+
 
 .container{
     border: 5px solid black;
@@ -107,3 +114,9 @@ a img:hover{
     opacity:0.8;
 }
 
+
+@media screen and (min-width: 992px) {
+    nav{
+        height: 60px;
+    }
+}
