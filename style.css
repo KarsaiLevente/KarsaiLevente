@@ -9,6 +9,7 @@ body{
     background-image:url("images/body.jpg");
     background-size: cover;
     height: 100%;
+    text-align: justify;
 }
 
 
@@ -109,6 +110,7 @@ nav{
     border-radius: 5%;
     margin-top: 30px;
     margin-bottom: 20px;
+
 }
 a img:hover{
     opacity:0.8;
