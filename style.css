@@ -9,6 +9,7 @@ body{
     background-image:url("images/body.jpg");
     background-size: cover;
     height: 100%;
+    text-align: justify;
 }
 
 
@@ -22,26 +23,17 @@ header h1{
 nav a{
     color:rgb(181, 175, 175) !important;
 }
+
 nav a:hover{
-    letter-spacing: 1px;
     color: red !important;
-    font-size: 120%;
-    text-decoration: underline red;
+    text-decoration: underline 2px red;
+    background-color:rgba(80, 78, 78, 0.18);
 }
-
-.fooldal:hover{
-    letter-spacing:2px !important;
-    font-size:130% !important;
-}
-
 
 .container{
     border: 5px solid black;
     padding:0px;
 }
-
-
-
 
 footer{
     margin:0px;
@@ -65,7 +57,6 @@ footer div{
 }
 
 
-
 #nevek{
     font-size: 16px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -76,7 +67,6 @@ footer div{
 .active{
     letter-spacing:1.5px;
     font-weight:bold;
-    font-size: 100%;
     text-decoration-line: underline;
     color: rgb(142, 7, 7) !important;
 }
@@ -87,8 +77,8 @@ footer div{
 
 
 section h2{
+    padding-left:10px;
     font-size: 140%;
-
 }
 
 nav{
@@ -97,10 +87,25 @@ nav{
 
 .sdiv img{
     text-align: center;
-    width: 95% !important;
+    width: 95%;
     border-radius:5%
 }
+
 .sdiv{
     color:rgb(255, 255, 255,0.733);
-    text-align: center;
+    /**text-align: center ;**/
+    margin-bottom: 10px;
 }
+
+.pozitivkep{
+    text-align: center;
+    width: 70% !important;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+a img:hover{
+    opacity:0.8;
+}
+
