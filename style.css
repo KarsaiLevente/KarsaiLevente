@@ -29,7 +29,6 @@ nav a:hover{
     color: red !important;
     text-decoration: underline 2px red;
     background-color:rgba(80, 78, 78, 0.18);
-    font-size: 130%;
 }
 
 nav div{
@@ -104,7 +103,7 @@ nav{
     margin-bottom: 10px;
 }
 
-.pozitivkep{
+.alkep{
     text-align: center;
     width: 70% !important;
     border-radius: 5%;
