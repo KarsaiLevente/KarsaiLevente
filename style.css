@@ -1,0 +1,106 @@
+header{
+    background-size: contain;
+    height: 110px;
+    background-image: url("images/header.jpg");
+    opacity:0.8;
+}
+
+body{
+    background-image:url("images/body.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+header h1{
+    color:chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing:7px;
+}
+
+nav a{
+    color:rgb(181, 175, 175) !important;
+}
+nav a:hover{
+    letter-spacing: 1px;
+    color: red !important;
+    font-size: 120%;
+    text-decoration: underline red;
+}
+
+.fooldal:hover{
+    letter-spacing:2px !important;
+    font-size:130% !important;
+}
+
+
+.container{
+    border: 5px solid black;
+    padding:0px;
+}
+
+
+
+
+footer{
+    margin:0px;
+    margin-top: 10px;
+    padding:0px;
+  }
+footer div{
+    background-color: rgb(205, 197, 197);
+    text-align:center;
+}
+
+#bal{
+    float: left;
+}
+#jobb{
+    float: right;
+}
+#bal, #jobb, #közép{
+    padding:20px;
+    display: block;
+}
+
+
+
+#nevek{
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.active{
+    letter-spacing:1.5px;
+    font-weight:bold;
+    font-size: 100%;
+    text-decoration-line: underline;
+    color: rgb(142, 7, 7) !important;
+}
+
+.fooldal{
+    font-weight: bold;
+}
+
+
+section h2{
+    font-size: 140%;
+
+}
+
+nav{
+    margin-bottom:5px;
+}
+
+.sdiv img{
+    text-align: center;
+    width: 95% !important;
+    border-radius:5%
+}
+.sdiv{
+    color:rgb(255, 255, 255,0.733);
+    text-align: center;
+}
