@@ -12,8 +12,6 @@ body{
     text-align: justify;
 }
 
-
-
 header h1{
     color:chocolate;
     font-family: 'Times New Roman', Times, serif;
@@ -24,7 +22,6 @@ nav a{
     color:rgb(181, 175, 175) !important;
 }
 
-
 nav a:hover{
     color: red !important;
     text-decoration: underline 2px red;
@@ -34,7 +31,6 @@ nav a:hover{
 nav div{
     position: relative;
 }
-
 
 .container{
     border: 5px solid black;
@@ -54,21 +50,21 @@ footer div{
 #bal{
     float: left;
 }
+
 #jobb{
     float: right;
 }
+
 #bal, #jobb, #közép{
     padding:20px;
     display: block;
 }
-
 
 #nevek{
     font-size: 16px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
 }
-
 
 .active{
     letter-spacing:1.5px;
@@ -80,7 +76,6 @@ footer div{
 .fooldal{
     font-weight: bold;
 }
-
 
 section h2{
     padding-left:10px;
