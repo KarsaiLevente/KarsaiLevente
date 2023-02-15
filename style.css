@@ -44,26 +44,6 @@ footer div{
     background-color: rgb(205, 197, 197);
     text-align:center;
 }
-
-#bal{
-    float: left;
-}
-#jobb{
-    float: right;
-}
-#bal, #jobb, #közép{
-    padding:20px;
-    display: block;
-}
-
-
-#nevek{
-    font-size: 16px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: 2px;
-}
-
-
 .active{
     letter-spacing:1.5px;
     font-weight:bold;
@@ -108,5 +88,27 @@ nav{
 a img:hover{
     opacity:0.8;
 }
+
+
+
+#bal{
+    float: left;
+}
+#jobb{
+    float: right;
+}
+#bal, #jobb, #közép{
+    padding:20px;
+    display: block;
+}
+
+
+#nevek{
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+
 
 
