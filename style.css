@@ -18,6 +18,11 @@ header h1{
     letter-spacing:7px;
 }
 
+h3{
+    font-size: 100px;
+}
+
+
 nav{
     margin-bottom:5px;
 }
@@ -41,11 +46,6 @@ section h2{
     font-size: 140%;
 }
 
-.container{
-    border: 5px solid black;
-    padding:0px;
-}
-
 footer{
     margin:0px;
     margin-top: 10px;
@@ -54,6 +54,16 @@ footer{
 footer div{
     background-color: rgb(205, 197, 197);
     text-align:center;
+}
+
+a img:hover{
+    opacity:0.8;
+    border: solid 1px black;
+}
+
+.container{
+    border: 5px solid black;
+    padding:0px;
 }
 
 .active{
@@ -85,14 +95,7 @@ footer div{
     border-radius: 5%;
     margin-top: 30px;
     margin-bottom: 20px;
-
 }
-a img:hover{
-    opacity:0.8;
-}
-
-
-
 
 #bal{
     float: left;
