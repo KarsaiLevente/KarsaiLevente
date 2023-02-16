@@ -19,15 +19,16 @@ header h1{
 }
 
 h3{
-    font-size: 100px;
+    font-size: 50px;
 }
 
 
 nav{
-    margin-bottom:5px;
+    margin-bottom:15px;
 }
 
 nav a{
+    font-size: 120% !important;
     color:rgb(181, 175, 175) !important;
 }
 
@@ -46,6 +47,10 @@ section h2{
     font-size: 140%;
 }
 
+section h4{
+    font-size: 120%;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 footer{
     margin:0px;
     margin-top: 10px;
@@ -87,6 +92,20 @@ a img:hover{
     color:rgb(255, 255, 255,0.733);
     /**text-align: center ;**/
     margin-bottom: 10px;
+}
+
+.vissza{
+    margin-top: 15px !important;
+}
+
+.vissza a{
+    font-size: 180% !important;
+    color: rgb(255, 255, 255,0.733);
+    text-decoration: none;
+}
+
+.vissza a:hover{
+    color: rgba(255, 255, 255, 0.397);
 }
 
 .alkep{
