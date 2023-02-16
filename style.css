@@ -79,6 +79,19 @@ a img:hover{
     color: rgb(142, 7, 7) !important;
 }
 
+li a{
+    color: rgb(181, 175, 175);
+    text-decoration: none;
+}
+
+li a:hover{
+    color:rgb(255, 255, 255,0.733);
+}
+
+li{
+    color: rgb(181, 175, 175);
+    letter-spacing:1.5px;
+}
 .fooldal{
     font-weight: bold;
 }
