@@ -43,7 +43,8 @@ nav div{
 }
 
 section h2{
-    padding-left:10px;
+    padding-left:15px;
+    padding-right: 15px;
     font-size: 140%;
 }
 
@@ -91,6 +92,7 @@ a img:hover{
 .sdiv{
     color:rgb(255, 255, 255,0.733);
     /**text-align: center ;**/
+    margin:0px;
     margin-bottom: 10px;
 }
 
