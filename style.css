@@ -5,6 +5,12 @@ header{
     opacity:0.8;
 }
 
+header h1{
+    color:chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing:7px;
+}
+
 body{
     background-image:url("images/body.jpg");
     background-size: cover;
@@ -12,11 +18,7 @@ body{
     text-align: justify;
 }
 
-header h1{
-    color:chocolate;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing:7px;
-}
+
 
 h3{
     font-size: 50px;
