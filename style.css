@@ -1,0 +1,157 @@
+header{
+    background-size: contain;
+    height: 110px;
+    background-image: url("images/header.jpg");
+    opacity:0.8;
+}
+
+header h1{
+    color:chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing:7px;
+}
+
+body{
+    background-image:url("images/body.jpg");
+    background-size: cover;
+    height: 100%;
+    text-align: justify;
+}
+
+h3{
+    font-size: 50px;
+}
+
+nav{
+    margin-bottom:15px;
+}
+
+nav a{
+    font-size: 120% !important;
+    color:rgb(181, 175, 175) !important;
+}
+
+nav a:hover{
+    color: red !important;
+    text-decoration: underline 2px red;
+    background-color:rgba(80, 78, 78, 0.18);
+}
+
+nav div{
+    position: relative;
+}
+
+section h2{
+    padding-left:15px;
+    padding-right: 15px;
+    font-size: 140%;
+}
+
+section h4{
+    font-size: 120%;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    margin:0px;
+    margin-top: 10px;
+    padding:0px;
+  }
+footer div{
+    background-color: rgb(205, 197, 197);
+    text-align:center;
+}
+
+a img:hover{
+    opacity:0.8;
+    border: solid 1px black;
+}
+
+.container{
+    border: 5px solid black;
+    padding:0px;
+}
+
+.active{
+    letter-spacing:1.5px;
+    font-weight:bold;
+    text-decoration-line: underline;
+    color: rgb(142, 7, 7) !important;
+}
+
+li a{
+    color: rgb(181, 175, 175);
+    text-decoration: none;
+}
+
+li a:hover{
+    color:rgb(255, 255, 255,0.733);
+}
+
+li{
+    color: rgb(181, 175, 175);
+    letter-spacing:1.5px;
+}
+.fooldal{
+    font-weight: bold;
+}
+
+.sdiv img{
+    text-align: center;
+    width: 95%;
+    border-radius:5%
+}
+
+.sdiv{
+    color:rgb(255, 255, 255,0.733);
+    /**text-align: center ;**/
+    margin:0px;
+    margin-bottom: 10px;
+}
+
+.vissza{
+    margin-top: 15px !important;
+}
+
+.vissza a{
+    font-size: 180% !important;
+    color: rgb(255, 255, 255,0.733);
+    text-decoration: none;
+}
+
+.vissza a:hover{
+    color: rgba(255, 255, 255, 0.397);
+}
+
+.alkep{
+    text-align: center;
+    width: 70% !important;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#bal{
+    float: left;
+}
+#jobb{
+    float: right;
+}
+#bal, #jobb, #közép{
+    padding:20px;
+    display: block;
+}
+
+
+#nevek{
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 992px) {
+    nav{
+        height: 60px;
+    }
+}
+
+
